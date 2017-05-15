@@ -1,0 +1,13 @@
+h1 {
+  color: #666666;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+body {
+  color: #666666;
+  font-family: 'Julius Sans One', sans-serif;
+  background-image: url("images/flames.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
