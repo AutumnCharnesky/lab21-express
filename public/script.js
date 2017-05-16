@@ -17,7 +17,7 @@ app.controller ('apiCtrl', function($scope, apifactory){
       var promise=$http({
         method: "GET",
         url: '/stuff',
-      }) .then(function callSeuccess(response) {
+      }) .then(function callSuccess(response) {
         stuff = response.data;
       },function(error) {
         console.log(error);
